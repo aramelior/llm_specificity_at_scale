@@ -1,0 +1,23 @@
+# os files
+**/.DS_Store
+
+# vscode settings
+**/.vscode/
+
+# thumbnails
+**/._*
+
+# environment files
+**/.env
+
+# debugging notebooks
+**/scratch.ipynb
+
+# exclude scratch folder
+scratch/
+
+# large files
+wacky.en.lemmas.json
+data/other/wacky_en_lemmas_freq.csv
+data/other/wacky.en.lemmas.json
+data/other/scope.xlsx

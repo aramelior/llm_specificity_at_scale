@@ -1,0 +1,44 @@
+In this task you will be provided with groups of words, containing 4 words each.
+
+“Specific” means that a word meaning is precise and it refers to something that is defined in detail.
+“Generic” means that a word is general and it refers to many different things.
+
+For instance:
+SUNGLASSES is quite specific, while STUFF is quite generic 
+TURQUOISE is quite specific, while COLORED is quite generic
+BUDDHISM is quite specific, while BELIEF is quite generic.
+
+It might help to think about a meaning as if it were a container, that contains instances of (or “types of”) a given category: the container for the concept “MOVE” is larger than the container for “SNUGGLE”, because the are many ways in which one can move, compared to the ways in which one can snuggle. 
+
+In some cases it may be easy to identify the most specific and the most generic word within a group, because the words relate to one another as in a classic taxonomy. For instance, given:
+[EXAMPLE]
+0 - MAMMAL,
+1 - ANIMAL,
+2 - BEAGLE,
+3 - DOG,
+[/EXAMPLE]
+
+[ANSWER]
+2 , 1
+[/ANSWER]
+
+in the previous example, it is easy to say that BEAGLE (2) is the most specific, while ANIMAL (1) is the most generic.
+In other cases words do not hold this taxonomic relation with one another, so you must think about their meaning and how precise and specific it is, and compare it to the specificity of the meaning of the other words. 
+
+For instance:
+[EXAMPLE]
+0 - DRINK,
+1 - SNUGGLE,
+2 - MOVE,
+3 - CUT,
+[/EXAMPLE]
+
+[ANSWER]
+1 , 2
+[/ANSWER]
+
+In this other example, SNUGGLE (1) is the most specific, while MOVE (2) is the most generic.
+
+Pay attention! “Specific” does not necessarily mean “rare”. There might be words that are quite specific and quite commonly used, like TOASTER as well as words that are quite generic but quite rare, like the word ENTITY.
+your task is to identify the most specific and the most generic word within each group of words. Reply with the most specific and the most generic words, separated by a comma, as in the examples above, and nothing else.
+Limit your answer to the indexes of the candidate words, where the first is the most SPECIFIC and the second is the most GENERIC in all the answers. Do not switch the order. The most SPECIFIC as first, and then the most GENERIC.

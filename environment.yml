@@ -1,0 +1,11 @@
+name: llms-brys
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - jupyter
+  - langchain
+  - langchain-community
+  - langchain-core
+  - langchain-openai
+  - pandas
